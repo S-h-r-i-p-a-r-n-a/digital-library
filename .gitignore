@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# FastAPI
+*.log
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/books/*
+uploads/covers/*
+!uploads/books/.gitkeep
+!uploads/covers/.gitkeep
+
+# Database
+*.db
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
