@@ -306,7 +306,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Shriparna Prasad** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Shriparna Prasad** - *Initial work* - [GitHub](https://github.com/S-h-r-i-p-a-r-n-a)
 
 ## 🙏 Acknowledgments
 
@@ -317,10 +317,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **Email**: shriparnaprasad2005@gmail.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your Name](https://linkedin.com/in/yourprofile)
+- **GitHub**: [S-h-r-i-p-a-r-n-a](https://github.com/S-h-r-i-p-a-r-n-a)
+- **LinkedIn**: [Shriparna Prasad](https://linkedin.com/in/yourprofile)
 
 ---
 
 Made with ❤️ for students worldwide
+
 
