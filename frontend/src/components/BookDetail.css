@@ -1,0 +1,218 @@
+.book-detail-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.back-btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: var(--primary-color);
+}
+
+.book-detail {
+  background-color: white;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+}
+
+the.detail-cover {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+the.detail-cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+the.detail-content h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.author {
+  font-size: 18px;
+  color: var(--secondary-color);
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+the.detail-meta {
+  background-color: var(--background-color);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.meta-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.meta-item:last-child {
+  border-bottom: none;
+}
+
+.meta-item .label {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.meta-item .value {
+  color: var(--text-color);
+}
+
+.value.available {
+  color: var(--success-color);
+  font-weight: 600;
+}
+
+.value.unavailable {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+the.description-section {
+  margin-bottom: 30px;
+}
+
+the.description-section h2 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+the.description-section p {
+  line-height: 1.6;
+  color: #555;
+  font-size: 15px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.edit-btn, .delete-btn, .save-btn, .cancel-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.edit-btn {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: var(--primary-color);
+}
+
+the.delete-btn {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+the.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+the.save-btn {
+  background-color: var(--success-color);
+  color: white;
+}
+
+the.save-btn:hover {
+  background-color: #229954;
+}
+
+the.cancel-btn {
+  background-color: #95a5a6;
+  color: white;
+}
+
+the.cancel-btn:hover {
+  background-color: #7f8c8d;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+@media (max-width: 768px) {
+  .book-detail {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .detail-cover {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .detail-content h1 {
+    font-size: 24px;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  .edit-btn, .delete-btn, .save-btn, .cancel-btn {
+    width: 100%;
+  }
+}
